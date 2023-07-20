@@ -6,13 +6,13 @@ const FormSplitBill = () => {
       <h2>Split a bill with X</h2>
 
       <label>💰 Bill value</label>
-      <input value="text" />
+      <input type="text" />
 
       <label>🫰🏼 Your expense</label>
-      <input value="text" />
+      <input type="text" />
 
       <label>👫 X's expense</label>
-      <input value="text" disabled />
+      <input type="text" disabled />
 
       <label>💸 Who is paying the bill</label>
       <select>
